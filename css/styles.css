@@ -1,21 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-body{
+*{
+	margin: 0px;
+	border: 0px;
 	font-family: Open Sans;
+}
+.loginbox{
+	width: 25%;
+	height: 45%;
+	display: block;
+	margin: auto;
+	background-color: rgb( 51, 255, 184,60%);
+}
+.loginbox h3{
+	text-align: center;
+	padding: 3px;
+}
+.loginbox form input[type="email"],form input[type="password"] {
+	padding: 3px;
+	margin-top: 10px;
+	margin-bottom: 3px;
+	margin-left: 10px;
+}
+.loginbox form input[type="submit"]{
+	background-color: rgb(190,199,196);
+	height: 25px;
+	width: 35%;
+	margin-top: 5px;
+	margin-left: 10px;
+	border: none;
+}
+.loginbox form input[type="submit"]:hover{
+	background-color: rgb(172,177,175);
+	cursor: pointer;
+	border-style: none;
 }
 .hcontainer{
 	width: 100%;
 	height: 340px;
 	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 	background-color: gray;
-	margin-top: 0px;
+	margin-top: 0;
+	background-image: url('../imgs/fondo.png');
+	background-size: 80rem;
+	background-repeat: no-repeat;
+}
+.hcontainer p{
+	padding: 10px;
 }
 .bcontainer{
 	width: 100%;
-	height: 500px;
-	margin: auto;
+	height: auto;
 	display: flex;
+	margin: auto;
+	flex-wrap: wrap;	
+	align-items: center;
 	justify-content: center;
-	background-color: blue;
 }
 .fcontainer{
 	width: 100%;
@@ -23,25 +65,33 @@ body{
 	margin: auto;
 	display: flex;
 	justify-content: center;
-	background-color: rgb( 81,202,178);
+	background-color: rgb(81,202,178);
 }
 .bcontainer h1{
 	text-align: center;
 }
+.descrip h2{
+	text-align: center;
+	margin-bottom: 1px;
+}
+.descrip{
+	margin-top: 1px;
+	padding: 10px;
+}
 .card{
-	width: 302px;
-	height: 285px;
-	margin: 5px;
+	width: 260px;
+	height: 300px;
+	margin: 5px 5px 5px 5px;
 	padding: 1px 2px;
 	background: #F9F9F9;
-	align-self: center;
+	justify-content: space-between;
 	-webkit-box-shadow: 8px 10px 15px -1px rgba(212,210,212,1);
 	-moz-box-shadow: 8px 10px 15px -1px rgba(212,210,212,1);
 	box-shadow: 8px 10px 15px -1px rgba(212,210,212,1);
 }
 .cardimg{
 	width: 95px;
-	height: 110px;
+	height: 100px;
 	padding-bottom: 1px;
 	display: block;
 	margin: auto;	
@@ -52,9 +102,18 @@ body{
 	font: bold;
 	padding: 0px;
 }
-.descrip{
+.card-descrip{
 	font-size: 12px;
 	font-style: italic;
 	padding: 1px 2px;	
 }
-
+.rrss{
+	width: 50%;
+	height: auto;
+	background-color: red;
+}
+.contact{
+	width: 50%;
+	height: auto;
+	background-color: orange;
+}
