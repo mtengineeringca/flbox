@@ -59,9 +59,13 @@
 	padding-bottom: 15px;
 }
 .resume{
-	width: 50%;
+	width: 60%;
 	height: 200px;
+	padding: 10px;
 	flex-direction: row;
+	text-align: center;
+	color: black/*rgb(81, 226, 236);*/
+	font-weight: bold;
 }
 .bcontainer{
 	width: 100%;
