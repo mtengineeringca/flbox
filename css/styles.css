@@ -4,11 +4,27 @@
 	border: 0px;
 	font-family: Open Sans;
 }
-.loginbox{
+.hcontainer{
+	width: 100%;
+	height: 340px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	background-color: gray;
+	margin-top: 0;
+	background-image: url('../imgs/fondo.jpg');
+	background-size: 80rem;
+	background-repeat: no-repeat;
+}
+.hcontainer p{
+	padding: 10px;
+}
+.hcontainer .loginbox{
 	width: 25%;
-	height: 45%;
-	display: block;
-	margin: auto;
+	height: 49%;
+	margin-top: 50px;
+	margin-left: 325px;
 	background-color: rgb( 51, 255, 184,60%);
 }
 .loginbox h3{
@@ -22,33 +38,30 @@
 	margin-left: 10px;
 }
 .loginbox form input[type="submit"]{
-	background-color: rgb(190,199,196);
+	background-color: rgb(51,255,57);
 	height: 25px;
 	width: 35%;
 	margin-top: 5px;
 	margin-left: 10px;
-	border: none;
+	border-radius: 10px;
 }
 .loginbox form input[type="submit"]:hover{
-	background-color: rgb(172,177,175);
+	background-color: rgb(39,155,42);
 	cursor: pointer;
 	border-style: none;
+	color: white;
+	font-weight: bold;
 }
-.hcontainer{
-	width: 100%;
-	height: 340px;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	background-color: gray;
-	margin-top: 0;
-	background-image: url('../imgs/fondo.png');
-	background-size: 80rem;
-	background-repeat: no-repeat;
+.loginbox form a{
+	font-size: 12px;
+	text-decoration: none;
+	margin-left: 70%;
+	padding-bottom: 15px;
 }
-.hcontainer p{
-	padding: 10px;
+.resume{
+	width: 50%;
+	height: 200px;
+	flex-direction: row;
 }
 .bcontainer{
 	width: 100%;
