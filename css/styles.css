@@ -131,28 +131,78 @@
 .rrss{
 	width: 90%;
 	height: auto;
-	background-color: red;
+	background-color: rgb(28,148,164);
+	color: white;
 }
+.rrss h2{
+	padding-left: 5px;
+	color: black;
+}
+.rrss p{
+	padding-left: 5px;
+}
+
 .logo{
-	width: 32%;
+	width: 27%;
 	height: 20%;
 	padding: 1%;
 }
-
+.rrss ul li{
+	list-style: none;
+}
+.rrss a{
+	text-decoration: none;
+	color: white;
+}
+.vinc{
+	color: yellow;
+}
 .contact{
 	width: 60%;
 	height: auto;
-	background-color: orange;
+	background-color: rgb(28,148,164);
+}
+.contact form input[type="submit"]{
+	background-color: rgb(48,185,29);
+	margin: 1% 1% 1% 1%;
+	width: 15%;	
+}
+.contact form input[type="submit"]:hover{
+	background-color: rgb(99,238,79);
+	cursor: pointer;
+	border-color: green;
+	color: white;
+	border-width: 2px;
+	border-style: solid;
 }
 textarea{
 	resize: none;
+}
+.services{
+	padding-left: 2%;
+	padding-bottom: 1%;
+}
+.services td {
+	font-size: 12px;
+	width: 2%;
 }
 .adress,.iconos{
 	font-size: 12px;
 	color: yellow;
 }
+.adress li{
+	list-style: none;
+	color: white;
+}
 .wsite{
-	background-color: pink;
+	width: auto;
+	color: black;
+	text-decoration: none;
+	background-color: rgb(234,81,18);
 	text-align: center;
 	padding: 0.2%;
+	font-size: 12px;
+}
+.wsite a:hover{
+	color: white;
 }
